@@ -7,3 +7,7 @@ def test_number():
 def test_multply():
     mult = 3 * 3 
     assert mult == 9
+
+def test_fail():
+    mult = 3 * 3 
+    assert mult == 2
